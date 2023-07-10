@@ -3,6 +3,7 @@
 // is the global scope in JavaScript, it contains all built-in functions and variables that are available to
 // every other part of a web page or application
 
-require('./coba.js');
+const cetakNama = require('./coba.js'); // local module
 
-console.log('hello world');
+
+console.log(cetakNama('Wibisana'));
